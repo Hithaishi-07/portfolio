@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rahul Sharma - Full Stack Developer & UI/UX Designer based in Hyderabad. Building accessible and high-performance web applications.">
+    <title>Rahul Sharma | Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <style>
+        .skip-link { position: absolute; top: -40px; left: 10px; background: #eab308; color: black; padding: 8px 16px; z-index: 9999; }
+        .skip-link:focus { top: 10px; }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200 font-sans">
+
+    <a href="#main-content" class="skip-link font-medium">Skip to main content</a>
+
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-zinc-950 border-b border-zinc-800">
+        <nav class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3 text-2xl font-bold">
+                <span class="text-yellow-400">R</span>ahul Sharma
+            </a>
+            <ul class="flex gap-8 text-sm font-medium">
+                <li><a href="index.html" class="text-yellow-400">Home</a></li>
+                <li><a href="about.html" class="hover:text-yellow-400">About</a></li>
+                <li><a href="projects.html" class="hover:text-yellow-400">Projects</a></li>
+                <li><a href="contact.html" class="hover:text-yellow-400">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="min-h-screen flex items-center px-6">
+            <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-6xl md:text-7xl font-bold leading-tight">Hi, I'm <span class="text-yellow-400">Rahul Sharma</span></h1>
+                    <p class="text-3xl text-zinc-400 mt-4">Full Stack Developer</p>
+                    <p class="mt-8 text-lg text-zinc-400 max-w-lg">
+                        Passionate about creating accessible, fast, and beautiful web experiences from Hyderabad, India.
+                    </p>
+                    <div class="mt-10 flex gap-5">
+                        <a href="projects.html" class="bg-yellow-400 text-black px-8 py-4 rounded-2xl font-semibold">View Projects</a>
+                        <a href="contact.html" class="border border-zinc-700 hover:border-yellow-400 px-8 py-4 rounded-2xl">Contact Me</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/id/64/600/700" alt="Rahul Sharma professional portrait" class="rounded-3xl shadow-2xl">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12 text-center text-sm text-zinc-500">
+        <p>&copy; 2026 Rahul Sharma. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
